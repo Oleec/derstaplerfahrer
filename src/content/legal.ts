@@ -1,16 +1,16 @@
 export const legalOwner = {
-  businessName: "TODO_REPLACE_BEFORE_LAUNCH: Der Staplerfahrer / Firmenname",
-  ownerName: "TODO_REPLACE_BEFORE_LAUNCH: Vor- und Nachname des Betreibers",
-  address: "TODO_REPLACE_BEFORE_LAUNCH: Straße Hausnummer, PLZ Ort, Österreich",
-  email: "TODO_REPLACE_BEFORE_LAUNCH: kontakt@derstaplerfahrer.at",
-  phone: "TODO_REPLACE_BEFORE_LAUNCH: +43 ...",
-  vatId: "TODO_REPLACE_BEFORE_LAUNCH: UID-Nummer, falls vorhanden",
-  tradeAuthority: "TODO_REPLACE_BEFORE_LAUNCH: zuständige Gewerbebehörde",
-  tradeDescription: "TODO_REPLACE_BEFORE_LAUNCH: Gewerbe / Unternehmensgegenstand",
-  chamber: "TODO_REPLACE_BEFORE_LAUNCH: Wirtschaftskammer Österreich / zuständige Fachgruppe",
-  mediaOwner: "TODO_REPLACE_BEFORE_LAUNCH: Medieninhaber",
-  hostingProvider: "TODO_REPLACE_BEFORE_LAUNCH: Hosting-Anbieter und Serverstandort",
-  privacyContact: "TODO_REPLACE_BEFORE_LAUNCH: Datenschutz-Kontakt, falls abweichend",
+  businessName: "Geschäftsbezeichnung: Der Staplerfahrer",
+  ownerName: "Oscar Lee Corradine",
+  address: "Kokoschkastrasse 19, 4020 Linz, Österreich",
+  email: "support@derstaplerfahrer.at",
+  phone: "+43 676 5777 358",
+  //vatId: "TODO_REPLACE_BEFORE_LAUNCH: UID-Nummer, falls vorhanden",
+  tradeAuthority: "Magistrat der Stadt Linz ",
+  tradeDescription: "Gewerbe / Unternehmensgegenstand",
+  chamber: "Mitglied der Wirtschaftskammer Österreich (WKO)", // Österreich / zuständige Fachgruppe",
+  mediaOwner: "Medieninhaber: Oscar Lee Corradine",
+  hostingProvider: "Railway Hosting-Anbieter und Serverstandort",
+  privacyContact: "support@derstaplerfahrer.at",
 };
 
 export const legalSources = [

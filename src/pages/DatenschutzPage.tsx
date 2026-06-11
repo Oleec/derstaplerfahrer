@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { LegalPageHeader } from "../components/legal/LegalPageHeader";
 import { LegalLayout } from "../components/layout/LegalLayout";
 import { Container } from "../components/ui/Container";
-import { cookieStorageKey, legalOwner } from "../content/legal";
+import { legalOwner } from "../content/legal";
 import { useDocumentMeta } from "../hooks/useDocumentMeta";
 
 const sectionClass = "rounded-lg border border-slate-200 bg-white p-6 shadow-sm";
@@ -62,36 +62,17 @@ export function DatenschutzPage() {
           <section className={sectionClass}>
             <h2 className={headingClass}>2. Hosting und technische Zugriffsdaten</h2>
             <p className={paragraphClass}>
-              Beim Aufruf dieser Website werden technisch notwendige Zugriffsdaten verarbeitet,
-              damit die Website ausgeliefert, stabil betrieben und gegen Missbrauch geschützt werden
-              kann. Dazu können insbesondere IP-Adresse, Zeitpunkt des Zugriffs, abgerufene Datei,
-              Browserinformationen und Referrer gehören.
+              Diese Website wird über Railway gehostet. Beim Besuch der Website können technisch notwendige Server-Logfiles verarbeitet werden, um die Website bereitzustellen, deren Stabilität sicherzustellen und Missbrauch zu verhindern. 
+Dabei können insbesondere IP-Adresse, Datum und Uhrzeit des Zugriffs, Browserinformationen sowie die angeforderte Seite verarbeitet werden. Die Verarbeitung erfolgt auf Grundlage unseres berechtigten Interesses an einem sicheren und funktionsfähigen Webauftritt gemäß Art. 6 Abs. 1 lit. f DSGVO.
             </p>
-            <p className={paragraphClass}>
-              Hosting-Anbieter: {legalOwner.hostingProvider}. Die Verarbeitung erfolgt auf Grundlage
-              unseres berechtigten Interesses an einem sicheren und funktionsfähigen Webauftritt gemäß
-              Art. 6 Abs. 1 lit. f DSGVO.
-            </p>
-          </section>
+            </section>
 
           <section className={sectionClass}>
             <h2 className={headingClass}>3. Kontaktformular, E-Mail und WhatsApp</h2>
             <p className={paragraphClass}>
-              Wenn Sie über das Formular, per E-Mail oder über WhatsApp Kontakt aufnehmen, verarbeiten
-              wir die von Ihnen angegebenen Daten zur Bearbeitung der Anfrage und für Anschlussfragen.
-              Dazu gehören insbesondere Firma, Kontaktperson, E-Mail-Adresse, Telefonnummer,
-              Einsatzort, gewünschter Termin, Art der Anfrage und Nachrichtentext.
+             Wenn Sie per E-Mail oder über WhatsApp Kontakt mit uns aufnehmen, werden die von Ihnen übermittelten Daten ausschließlich zur Bearbeitung Ihrer Anfrage und für mögliche Anschlussfragen verarbeitet. Rechtsgrundlage hierfür ist Art. 6 Abs. 1 lit. b DSGVO (vorvertragliche Maßnahmen) sowie Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einer effizienten Kommunikation). Die Daten werden grundsätzlich für sechs Monate gespeichert, sofern keine gesetzlichen Aufbewahrungspflichten bestehen.
             </p>
-            <p className={paragraphClass}>
-              Rechtsgrundlage ist die Durchführung vorvertraglicher Maßnahmen bzw. die Bearbeitung
-              Ihrer Anfrage gemäß Art. 6 Abs. 1 lit. b DSGVO sowie unser berechtigtes Interesse an
-              effizienter Kommunikation gemäß Art. 6 Abs. 1 lit. f DSGVO.
-            </p>
-            <p className={paragraphClass}>
-              Anfragedaten werden grundsätzlich für sechs Monate gespeichert, sofern keine längeren
-              gesetzlichen Aufbewahrungspflichten oder berechtigten Interessen bestehen.
-            </p>
-          </section>
+                </section>
 
           <section className={sectionClass}>
             <h2 className={headingClass}>4. Supabase als Formular-Dienst</h2>
@@ -106,31 +87,21 @@ export function DatenschutzPage() {
           <section className={sectionClass}>
             <h2 className={headingClass}>5. Cookies und lokale Speicherung</h2>
             <p className={paragraphClass}>
-              Diese Website verwendet keine Marketing- oder Analyse-Cookies. Es werden keine Google
-              Analytics, Tracking-Pixel, eingebettete Karten oder Social-Media-Plugins geladen.
-            </p>
+             Diese Website verwendet keine Marketing- oder Analyse-Cookies.Es werden keine Tracking-Pixel oder vergleichbare Technologien eingesetzt. Sofern ein Hinweis zur Verwendung von Cookies angezeigt wird, wird die entsprechende Auswahl lokal im Browser gespeichert, damit der Hinweis nicht bei jedem Besuch erneut erscheint. 
+</p>
+          </section>
+
+          <section className={sectionClass}>
+            <h2 className={headingClass}>6. Weitergabe von Daten</h2>
             <p className={paragraphClass}>
-              Zur Speicherung Ihrer Entscheidung zum Cookie-Hinweis wird im Browser ein lokaler
-              Eintrag mit dem Schlüssel <code className="rounded bg-slate-100 px-1">{cookieStorageKey}</code>{" "}
-              gespeichert. Diese Speicherung ist technisch notwendig, damit der Hinweis nicht bei
-              jedem Seitenaufruf erneut erscheint.
+             Eine Weitergabe personenbezogener Daten erfolgt nur, soweit dies zur Bearbeitung Ihrer Anfrage erforderlich ist, eine gesetzliche Verpflichtung besteht oder Sie ausdrücklich eingewilligt haben.
             </p>
           </section>
 
           <section className={sectionClass}>
-            <h2 className={headingClass}>6. Keine externen Schriftarten per CDN</h2>
+            <h2 className={headingClass}>7. Empfänger und Weitergabe von Daten</h2>
             <p className={paragraphClass}>
-              Die Website lädt keine Google Fonts oder vergleichbare Schriftarten über externe CDNs.
-              Es wird ein lokaler System-Font-Stack verwendet.
-            </p>
-          </section>
-
-          <section className={sectionClass}>
-            <h2 className={headingClass}>7. Empfänger und Weitergabe</h2>
-            <p className={paragraphClass}>
-              Personenbezogene Daten werden nur weitergegeben, wenn dies zur Bearbeitung Ihrer Anfrage,
-              zur technischen Bereitstellung der Website, aufgrund gesetzlicher Pflichten oder mit Ihrer
-              Einwilligung erforderlich ist.
+              Personenbezogene Daten werden nur weitergegeben, soweit dies zur technischen Bereitstellung der Website, zur Bearbeitung Ihrer Anfrage, aufgrund gesetzlicher Verpflichtungen oder mit Ihrer ausdrücklichen Einwilligung erforderlich ist.  
             </p>
           </section>
 
