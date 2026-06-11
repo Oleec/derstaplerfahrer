@@ -48,10 +48,6 @@ export function ImpressumPage() {
                 </dd>
               </div>
               <div>
-                <dt className="font-bold text-slate-950">UID-Nummer</dt>
-                <dd>{legalOwner.vatId}</dd>
-              </div>
-              <div>
                 <dt className="font-bold text-slate-950">Gewerbe / Unternehmensgegenstand</dt>
                 <dd>{legalOwner.tradeDescription}</dd>
               </div>
