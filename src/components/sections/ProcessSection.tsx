@@ -8,7 +8,7 @@ export function ProcessSection() {
       <Container>
         <SectionHeading
           title="So funktioniert die Anfrage"
-          description="Ein einfacher Ablauf für Firmen, die keine Zeit verlieren wollen."
+          description="Ein einfacher Ablauf für Unternehmen, die flexible Unterstützung im Lager brauchen."
         />
 
         <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-4">

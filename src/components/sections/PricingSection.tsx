@@ -11,8 +11,8 @@ export function PricingSection() {
       <Container>
         <SectionHeading
           eyebrow="Typische Einsatzkosten"
-          title="Flexible Unterstützung – transparente Preise."
-          description="Eine flexible Alternative zu Zeitarbeit und kurzfristiger Personalsuche."
+          title="Flexible Unterstützung – transparente Orientierung."
+          description="Eine praktische Lösung für kurzfristigen operativen Bedarf im Lager."
         />
 
         <div className="grid gap-5 lg:grid-cols-2 xl:grid-cols-4">
@@ -110,11 +110,11 @@ export function PricingSection() {
           <div className="max-w-2xl">
             <p className="text-sm font-black uppercase text-amber-700">Nächster Schritt</p>
             <h3 className="mt-2 text-2xl font-black leading-tight text-slate-950">
-              Sie sind nicht sicher, welcher Einsatz passt?
+              Sie sind nicht sicher, welche Unterstützung passt?
             </h3>
             <p className="mt-3 leading-7 text-slate-600">
-              Vereinbaren Sie zuerst einen kostenlosen Kennenlern-Termin. Gemeinsam finden wir die
-              passende Lösung für Ihren Betrieb.
+              Vereinbaren Sie zuerst einen kostenlosen Kennenlern-Termin. Gemeinsam klären wir,
+              welche Lager- und Warenprozesse sinnvoll unterstützt werden können.
             </p>
           </div>
           <div className="mt-5 lg:mt-0">

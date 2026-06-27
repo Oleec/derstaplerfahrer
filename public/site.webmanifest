@@ -1,7 +1,7 @@
 {
   "name": "Der Staplerfahrer",
   "short_name": "Staplerfahrer",
-  "description": "Flexible Staplerfahrer-Unterstützung für Unternehmen in Österreich.",
+  "description": "Flexible Unterstützung für Lagerprozesse und Warenbewegung in Österreich.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#f8fafc",

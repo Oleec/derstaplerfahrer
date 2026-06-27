@@ -13,9 +13,9 @@ import { useDocumentMeta } from "../hooks/useDocumentMeta";
 
 export function LandingPage() {
   useDocumentMeta({
-    title: "Der Staplerfahrer | Flexible Staplerfahrer-Unterstützung in Österreich",
+    title: "Der Staplerfahrer | Flexible Lagerunterstützung mit Stapler-Erfahrung",
     description:
-      "Kurzfristige Staplerfahrer-Unterstützung für Lager, Logistik, Produktion und E-Commerce in Österreich. Tageweise buchbar bei Personalausfällen und Auftragsspitzen.",
+      "Selbstständige operative Unterstützung für Lagerprozesse, Warenbewegung, Wareneingang und Versand in Österreich. Flexibel bei Auftragsspitzen und kurzfristigem Lagerbedarf.",
   });
 
   return (

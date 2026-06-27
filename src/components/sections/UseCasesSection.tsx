@@ -8,8 +8,8 @@ export function UseCasesSection() {
     <section id="einsatz" className="bg-slate-50 py-16 sm:py-20">
       <Container>
         <SectionHeading
-          title="Für Unternehmen, die schnell eine praktische Lösung brauchen."
-          description="Der Service ist keine klassische Personalvermittlung, sondern operative Unterstützung, wenn kurzfristig jemand mit Stapler-Erfahrung gebraucht wird."
+          title="Für Unternehmen, die flexible Unterstützung im Lager brauchen."
+          description="Der Service ist keine klassische Personalvermittlung, sondern eine selbstständige operative Dienstleistung für Lager- und Warenprozesse. Der Fokus liegt auf praktischer Unterstützung bei klar definierten Aufgaben im Betrieb."
         />
 
         <div className="grid gap-5 md:grid-cols-3">

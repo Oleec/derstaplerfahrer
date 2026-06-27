@@ -9,8 +9,8 @@ export function ServicesSection() {
       <Container>
         <SectionHeading
           tone="dark"
-          title="Fokus auf Stapler, Lagerfluss und schnelle Entlastung."
-          description="Klare Leistungen, klare Kommunikation und einfache Abrechnung. Besonders interessant für kleinere Lager, E-Commerce, Handel, Import/Export, Produktion und Logistikbetriebe."
+          title="Fokus auf Warenbewegung, Lagerordnung und operative Entlastung."
+          description="Klare Aufgaben, direkte Kommunikation und einfache Abrechnung. Besonders interessant für kleinere Lager, E-Commerce, Handel, Import/Export, Produktion und Logistikbetriebe mit zusätzlichem operativem Bedarf."
         />
 
         <div className="grid gap-5 md:grid-cols-3">

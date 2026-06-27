@@ -13,7 +13,7 @@ export function Footer() {
         <div className="grid gap-5 lg:grid-cols-[1fr_auto] lg:items-center">
           <div className="grid gap-2">
             <span>© 2026 Der Staplerfahrer</span>
-            <span>Selbstständiger B2B-Service · Lager · Stapler · Logistik</span>
+            <span>Selbstständiger B2B-Service · Lagerprozesse · Warenbewegung · Stapler</span>
           </div>
           <nav className="flex flex-wrap gap-x-5 gap-y-2" aria-label="Rechtliche Links">
             <Link className="transition hover:text-brand-yellow" to="/impressum">

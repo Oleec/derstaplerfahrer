@@ -19,17 +19,17 @@ export function HeroSection() {
         <div className="max-w-3xl">
           <p className="mb-5 inline-flex items-center gap-2 rounded-md border border-brand-yellow/40 bg-brand-yellow/15 px-3 py-2 text-sm font-bold text-yellow-100">
             <CalendarCheck aria-hidden="true" className="h-4 w-4" />
-            Neu: Kostenloser Vor-Ort Kennenlern-Termin für Neukunden
+            Erst kennenlernen. Dann schneller im Lager unterstützen.
           </p>
 
           <h1 className="text-balance text-4xl font-black leading-none sm:text-5xl lg:text-7xl">
-            Wenn ein <span className="text-brand-yellow">Staplerfahrer</span> fehlt, springe ich ein.
+            Flexible Lagerunterstützung mit Stapler-Erfahrung.
           </h1>
 
           <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-200">
-            Flexible Staplerfahrer-Unterstützung auf selbstständiger Basis für Lager, Logistik,
-            Produktion, Handel und E-Commerce. Tageweise buchbar, ideal bei Personalausfällen,
-            Auftragsspitzen oder kurzfristigem Lagerbedarf.
+            Selbstständige Unterstützung für Unternehmen bei innerbetrieblichen Lagerabläufen,
+            Warenbewegung, Wareneingang, Versand und Ordnung im Lager. Flexibel einsetzbar bei
+            Auftragsspitzen, kurzfristigem Lagerbedarf oder zusätzlichem operativem Aufwand.
           </p>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -37,7 +37,7 @@ export function HeroSection() {
               Jetzt anfragen
             </ButtonLink>
             <ButtonLink href="#kennenlernen" icon={CalendarCheck} variant="secondary">
-              Kennenlern-Termin ansehen
+              Kostenlos kennenlernen
             </ButtonLink>
           </div>
 

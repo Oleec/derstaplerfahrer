@@ -6,10 +6,10 @@ import type { LeadFormValues, PreferredContact, ServiceType } from "../../types/
 
 const serviceOptions: Array<{ value: ServiceType; label: string }> = [
   { value: "kennenlernen", label: "Kostenloser Kennenlern-Termin" },
-  { value: "kurz-einsatz", label: "Kurz-Einsatz bis 4 Stunden" },
-  { value: "tages-einsatz", label: "Tages-Einsatz" },
+  { value: "kurz-einsatz", label: "Geplanter Lager-Einsatz" },
+  { value: "tages-einsatz", label: "Standard Lagerunterstützung" },
+  { value: "beratung", label: "Kurzfristiger Lagerbedarf" },
   { value: "express-einsatz", label: "Express-Einsatz" },
-  { value: "beratung", label: "Noch unsicher" },
 ];
 
 const contactOptions: Array<{ value: PreferredContact; label: string }> = [
@@ -51,7 +51,7 @@ export function LeadForm() {
       <div className="mb-6">
         <p className="text-sm font-bold uppercase text-amber-700">Anfrage senden</p>
         <h2 className="mt-2 text-2xl font-black leading-tight text-slate-950">
-          Einsatzdaten kurz beschreiben
+          Lagerbedarf kurz beschreiben
         </h2>
       </div>
 
@@ -194,7 +194,7 @@ export function LeadForm() {
           onChange={updateTextField("message")}
           aria-invalid={Boolean(errors.message)}
           aria-describedby={errors.message ? "message-error" : undefined}
-          placeholder="Beispiel: Wir benötigen Unterstützung mit dem Stapler für Wareneingang und Palettenbewegung am kommenden Dienstag von 8 bis 16 Uhr."
+          placeholder="Beispiel: Wir benötigen Unterstützung im Lager bei Wareneingang, Warenbewegung und Sortierung am kommenden Dienstag von 8 bis 16 Uhr. Ein Stapler ist vor Ort vorhanden."
           className={fieldClasses(Boolean(errors.message))}
         />
         {errors.message ? <p id="message-error" className="mt-2 text-sm text-red-700">{errors.message}</p> : null}

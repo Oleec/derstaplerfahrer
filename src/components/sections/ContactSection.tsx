@@ -16,10 +16,10 @@ export function ContactSection() {
           <div>
             <p className="mb-3 text-sm font-bold uppercase text-brand-yellow">Kontakt</p>
             <h2 className="text-balance text-3xl font-black leading-tight sm:text-5xl">
-              Staplerfahrer kurzfristig benötigt?
+              Unterstützung im Lager benötigt?
             </h2>
             <p className="mt-5 text-lg leading-8 text-slate-300">
-              Schreiben Sie kurz den Einsatzort, Zeitraum und die Aufgabe. Ich prüfe die
+              Schreiben Sie kurz den Einsatzort, Zeitraum und den Aufgabenbereich. Ich prüfe die
               Verfügbarkeit und sende eine schnelle Rückmeldung.
             </p>
 
@@ -40,8 +40,8 @@ export function ContactSection() {
               <article className="rounded-lg border border-white/10 bg-white/10 p-5">
                 <strong className="text-brand-yellow">Kurze Anfrage-Vorlage</strong>
                 <p className="mt-3 leading-7 text-slate-300">
-                  Hallo, wir benötigen kurzfristig Unterstützung mit dem Stapler. Einsatzort:
-                  ____. Datum/Uhrzeit: ____. Aufgabe: ____. Können Sie verfügbar sein?
+                  Hallo, wir benötigen Unterstützung im Lager / bei der Warenbewegung. Einsatzort:
+                  ____. Datum/Uhrzeit: ____. Aufgabenbereich: ____. Ist ein Einsatz möglich?
                 </p>
               </article>
               <article className="rounded-lg border border-white/10 bg-white/10 p-5">

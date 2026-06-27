@@ -20,11 +20,12 @@ export function IntroMeetingSection() {
             </h3>
             <p className="mt-5 leading-7">
               Ziel ist es, Ihren Betrieb kennenzulernen, die wichtigsten Abläufe zu verstehen und
-              gemeinsam festzustellen, wie ich Ihr Team im Bedarfsfall am effizientesten unterstützen kann.
+              gemeinsam festzustellen, bei welchen Lager- und Warenprozessen ich Sie bei Bedarf am
+              effizientesten unterstützen kann.
             </p>
             <div className="mt-6 rounded-lg border border-white/60 bg-white/55 p-5">
-              <strong>Ihr Vorteil:</strong> Wenn später kurzfristig Unterstützung benötigt wird, kann
-              ich deutlich schneller produktiv eingesetzt werden, da ich Ihren Betrieb bereits kenne.
+              <strong>Ihr Vorteil:</strong> Wenn später kurzfristig operative Unterstützung benötigt wird,
+              kenne ich Ihren Betrieb, die Abläufe und die wichtigsten Sicherheitsvorgaben bereits.
             </div>
           </div>
 

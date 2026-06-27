@@ -9,11 +9,11 @@ export function WhySection() {
           <div className="rounded-lg bg-slate-950 p-7 text-white shadow-(--shadow-soft) sm:p-9">
             <p className="mb-3 text-sm font-bold uppercase text-brand-yellow">Warum dieses Modell</p>
             <h2 className="text-balance text-3xl font-black leading-tight sm:text-4xl">
-              Nicht lange suchen. Nicht sofort einstellen. Einfach anfragen.
+              Nicht kompliziert planen. Nicht lange abstimmen. Einfach Unterstützung anfragen.
             </h2>
             <p className="mt-5 leading-7 text-slate-300">
-              Unternehmen verlieren Zeit, wenn sie kurzfristig Personal suchen müssen. Dieses Modell
-              bietet eine flexible Reserve für genau diese Situationen.
+              Unternehmen verlieren Zeit, wenn Lagerprozesse kurzfristig mehr Kapazität brauchen.
+              Dieses Modell bietet flexible Unterstützung für klar definierte Aufgaben im Lager.
             </p>
           </div>
 

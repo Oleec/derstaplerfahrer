@@ -48,38 +48,48 @@ export const navItems: NavItem[] = [
 export const trustSignals = [
   "Staplerschein vorhanden",
   "Tageweise buchbar",
-  "Für Ausfälle und Auftragsspitzen",
+  "Für Lagerabläufe & Auftragsspitzen",
   "Rechnung für Unternehmen",
 ];
 
 export const heroHighlights = [
-  { title: "Staplerfahrer krank?", body: "Kurzfristige Hilfe, damit die Schicht weiterläuft." },
-  { title: "Mehr Ware als geplant?", body: "Unterstützung bei Wareneingang, Versand und Lagerfluss." },
-  { title: "Kein langfristiger Vertrag?", body: "Nur buchen, wenn wirklich Bedarf besteht." },
+  {
+    title: "Unterstützung im Lager benötigt?",
+    body: "Praktische Hilfe bei Warenbewegung, Wareneingang und Versand.",
+  },
+  {
+    title: "Mehr Ware als geplant?",
+    body: "Unterstützung bei Wareneingang, Versand, Sortierung und innerbetrieblichem Warenfluss.",
+  },
+  {
+    title: "Kein langfristiger Aufwand?",
+    body: "Nur anfragen, wenn tatsächlich operativer Bedarf besteht.",
+  },
 ];
 
 export const useCases: IconContent[] = [
   {
-    title: "Personalausfall",
-    body: "Ein Mitarbeiter fällt aus und der Betrieb braucht kurzfristig Ersatz für einen oder mehrere Tage.",
+    title: "Kurzfristiger Lagerbedarf",
+    body:
+      "Wenn zusätzliche Unterstützung im Lager benötigt wird, zum Beispiel bei erhöhtem Warenaufkommen, kurzfristigen Engpässen oder operativem Mehraufwand.",
     icon: AlertTriangle,
   },
   {
     title: "Auftragsspitzen",
-    body: "Mehr Bestellungen, mehr Ware, mehr Druck: flexible Hilfe bei Wareneingang, Versand und Lagerfluss.",
+    body: "Mehr Bestellungen, mehr Ware, mehr Druck: flexible Hilfe bei Wareneingang, Versand, Sortierung und Warenbewegung.",
     icon: Package,
   },
   {
     title: "LKW und Container",
-    body: "Unterstützung beim Be- und Entladen, Sortieren, Umstellen und innerbetrieblichen Transport.",
+    body: "Unterstützung beim Be- und Entladen, Sortieren, Umstellen und bei der innerbetrieblichen Warenbewegung.",
     icon: Truck,
   },
 ];
 
 export const services: IconContent[] = [
   {
-    title: "Stapler-Einsatz im Lager",
-    body: "Paletten bewegen, Ware umstellen, Lagerbereiche unterstützen und den Materialfluss sichern.",
+    title: "Warenbewegung mit Stapler",
+    body: "Paletten bewegen, Ware umstellen, Lagerbereiche unterstützen und den innerbetrieblichen Materialfluss sichern.",
     icon: Forklift,
   },
   {
@@ -88,8 +98,9 @@ export const services: IconContent[] = [
     icon: PackageCheck,
   },
   {
-    title: "Operative Zusatzhilfe",
-    body: "Wenn gerade kein Stapler gebraucht wird: Mithilfe bei Lagerarbeiten, Ordnung und einfachen Prozessen.",
+    title: "Lagerordnung und Prozesshilfe",
+    body:
+      "Unterstützung bei Ordnung, Sortierung, einfachen Lagerprozessen und klar definierten operativen Aufgaben.",
     icon: Settings,
   },
 ];
@@ -97,17 +108,17 @@ export const services: IconContent[] = [
 export const advantages: IconContent[] = [
   {
     title: "Keine langfristige Bindung",
-    body: "Die Firma zahlt nur, wenn wirklich Bedarf besteht.",
+    body: "Ihr Unternehmen zahlt nur, wenn tatsächlich operativer Bedarf besteht.",
     icon: CalendarCheck,
   },
   {
     title: "Weniger organisatorischer Aufwand",
-    body: "Keine klassische Einstellung, keine lange Suche und keine internen HR-Prozesse.",
+    body: "Klare Aufgabenabstimmung, direkte Kommunikation und einfache Abrechnung.",
     icon: ClipboardCheck,
   },
   {
     title: "Praktisch und lösungsorientiert",
-    body: "Der Fokus liegt auf Arbeit, Entlastung und einem stabilen Lagerablauf.",
+    body: "Der Fokus liegt auf Warenbewegung, Ordnung, Entlastung und einem stabilen Lagerablauf.",
     icon: CheckCircle2,
   },
 ];
@@ -128,7 +139,7 @@ export const pricingPlans: PricePlan[] = [
     price: "0 €",
     subtitle: "Kostenlos für Neukunden",
     description:
-      "Der risikofreie Einstieg, damit ich Betrieb, Abläufe und Sicherheitsvorgaben vor einem späteren Einsatz kenne.",
+      "Der risikofreie Einstieg, damit ich Betrieb, Abläufe, Aufgabenbereiche und Sicherheitsvorgaben vor einem späteren Einsatz kenne.",
     features: [
       "Betriebsrundgang",
       "Prozesse verstehen",
@@ -156,12 +167,12 @@ export const pricingPlans: PricePlan[] = [
     label: "Empfohlen",
     title: "Standard Einsatz",
     price: "ab 220 €",
-    subtitle: "Für Ausfälle und Auftragsspitzen",
+    subtitle: "Für Lagerbedarf und Auftragsspitzen",
     description:
-      "Die beste Wahl, wenn der Lagerfluss stabil bleiben muss und kurzfristig verlässliche Unterstützung gebraucht wird.",
+      "Die beste Wahl, wenn Warenbewegung, Wareneingang oder Versand zuverlässig unterstützt werden sollen.",
     features: [
       "Direktkontakt",
-      "Keine Vermittlungsgebühr",
+      "Direkte Beauftragung",
       "Flexible Einsätze",
       "Schnelle Verfügbarkeit",
       "Persönlicher Ansprechpartner",
@@ -169,12 +180,12 @@ export const pricingPlans: PricePlan[] = [
     featured: true,
   },
   {
-    label: "Akut",
-    title: "Notfall-Einsatz",
+    label: "Express",
+    title: "Express-Einsatz",
     price: "ab 280 €",
     subtitle: "Bei sehr kurzfristigem Bedarf",
     description:
-      "Für akute Engpässe, wenn Ausfälle, Lieferdruck oder ungeplante Mengen den Betrieb gefährden.",
+      "Für akute Engpässe, wenn Lieferdruck, ungeplante Mengen oder kurzfristiger operativer Bedarf den Lagerablauf belasten.",
     features: [
       "Priorisierte Anfrage",
       "Für akute Engpässe",
@@ -187,7 +198,7 @@ export const pricingPlans: PricePlan[] = [
 export const processSteps: IconContent[] = [
   {
     title: "Bedarf melden",
-    body: "Firma sendet Datum, Uhrzeit, Ort, Aufgabe und ob ein Stapler benötigt wird.",
+    body: "Sie senden Datum, Uhrzeit, Ort, Aufgabenbereich und ob ein Stapler vor Ort eingesetzt werden soll.",
     icon: Warehouse,
   },
   {
@@ -197,12 +208,12 @@ export const processSteps: IconContent[] = [
   },
   {
     title: "Einsatz durchführen",
-    body: "Ich komme zum Standort und unterstütze praktisch im Lager oder Versand.",
+    body: "Ich komme zum Standort und unterstütze bei den vereinbarten Lager- und Warenprozessen.",
     icon: ShieldCheck,
   },
   {
     title: "Abrechnung",
-    body: "Die Firma erhält eine klare Rechnung nach vereinbartem Tages- oder Halbtagssatz.",
+    body: "Ihr Unternehmen erhält eine klare Rechnung nach dem vorab vereinbarten Einsatzumfang.",
     icon: ReceiptText,
   },
 ];
@@ -211,21 +222,21 @@ export const faqs = [
   {
     question: "Ist der Kennenlern-Termin wirklich kostenlos?",
     answer:
-      "Ja. Für Neukunden ist der Vor-Ort Kennenlern-Termin bis zu 3 Stunden kostenlos und unverbindlich. Er dient dazu, den Betrieb, die Abläufe und die Sicherheitsvorgaben kennenzulernen.",
+      "Ja. Für Neukunden ist der Vor-Ort Kennenlern-Termin bis zu 3 Stunden kostenlos und unverbindlich. Er dient dazu, den Betrieb, die Abläufe, mögliche Aufgabenbereiche und die Sicherheitsvorgaben kennenzulernen.",
   },
   {
     question: "Kann ich kurzfristig am selben Tag buchen?",
     answer:
-      "Je nach Verfügbarkeit ist ein kurzfristiger Einsatz möglich. Für sehr dringende Einsätze gilt der Express-Tarif.",
+      "Je nach Verfügbarkeit ist ein kurzfristiger Einsatz möglich. Für sehr dringende Anfragen gilt der Express-Einsatz nach Verfügbarkeit.",
   },
   {
     question: "Ist das eine Personalvermittlung?",
     answer:
-      "Nein. Es handelt sich um einen selbstständigen B2B-Service für operative Unterstützung bei konkretem Bedarf.",
+      "Nein. Der Service ist keine klassische Arbeitskräfteüberlassung. Es werden keine Mitarbeiter vermittelt. Es handelt sich um eine selbstständige operative Dienstleistung für klar definierte Lager- und Warenprozesse.",
   },
   {
-    question: "Was muss die Firma vorbereiten?",
+    question: "Was muss das Unternehmen vorbereiten?",
     answer:
-      "Wichtig sind Einsatzort, Uhrzeit, Aufgabenbeschreibung, Sicherheitsunterweisung vor Ort und klare Ansprechpartner im Betrieb.",
+      "Wichtig sind Einsatzort, Uhrzeit, Aufgabenbeschreibung, Ansprechpartner vor Ort, Sicherheitsunterweisung und die Information, ob ein Stapler oder andere Betriebsmittel vor Ort eingesetzt werden sollen.",
   },
 ];
